@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(code.jpg);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main-nav{
+    float: left;
+    list-style: none;
+    margin-top: 50px
+    
+}
+.main-nav li{
+    display: inline-block;
+    padding: 10px;   
+    
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    
+}
+.main-nav li.active a{
+    border: 1px solid white;
+    
+}
+.main-nav li a:hover{
+    color: red;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    float: left;
+    
+}
+.logo h1{
+    font-family: fantasy;
+    color: white;
+    float: left;
+    font-weight: 1000;
+    padding-top: 50px;
+    margin-right: 50px
+    
+}
+.logo h1 span{
+    font-weight: 10;
+}
+.logo{
+    padding-top: 40px;
+    
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+    margin-left:50px;
+    padding-left: 100px;
+    padding-top: 10px;
+    text-align: right;
+    
+}
+.about{
+    text-align: center;
+    background-image: linear-gradient(black,magenta);
+    height: 220vh;
+}
+.about h1{
+    color: aliceblue;
+    padding-top: 50px;
+    font-size: 75px;
+}
+.about h2{
+    color: aliceblue;
+}
+.students h1{
+    font-size: 40px;
+}
+.students{
+    text-align: center;
+    padding-left: 50px
+}
+.students h3{
+    color: aliceblue
+}
+.arpon{
+    float: left;
+    padding-left: 30px;
+
+    
+}
+.rushil{
+    float: left;
+    padding-left: 300px;
+}
+.ishan{
+    float: left;
+    padding-left: 200px;
+}
+@media screen and (max-width:2000px){
+    .students{
+        flex-direction: column;
+        float: none;
+    
+    }
+
+    
+}
+
+
+
+
+
+
+

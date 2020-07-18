@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(code.jpg);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.main-nav{
+    float: left;
+    list-style: none;
+    margin-top: 50px
+    
+}
+.main-nav li{
+    display: inline-block;
+    padding: 10px;   
+    
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    
+}
+.main-nav li.active a{
+    border: 1px solid white;
+    
+}
+.main-nav li a:hover{
+    color: red;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    float: left;
+    
+}
+.logo h1{
+    font-family: fantasy;
+    color: white;
+    float: left;
+    font-weight: 1000;
+    padding-top: 50px;
+    margin-right: 50px
+    
+}
+.logo h1 span{
+    font-weight: 10;
+}
+.logo{
+    padding-top: 40px;
+    
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+    margin-left:50px;
+    padding-left: 100px;
+    padding-top: 10px;
+    text-align: right;
+    
+}
+.register{
+    background-image: linear-gradient(black,purple);
+    height: 90vh;
+    background-size: cover;
+    background-position: cover;
+    
+}
+.register img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.classes{
+    animation: fadeIn 5s;
+    display: inline-block;
+}
+.classes p{
+    color: aliceblue;
+    font-family: fantasy;
+}
+.classes h1{
+    color: aliceblue;
+    font-family: fantasy;
+}
+.button{
+    
+    padding-top: 10px;
+    
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: aliceblue;
+
+    
+}
+.class2{
+    float: left;
+    padding-left:40px;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+@media screen and (max-width:2000px){
+    .register{
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .classes{
+        height: auto;
+    }
+    
+    .class2{
+        padding-top: 50px;
+        margin-bottom: 70px; 
+        padding-right: 100px;
+    }
+   
+}
+@media screen and (max-width:1024px){
+    .class2{
+        float: none;
+    }
+}
+

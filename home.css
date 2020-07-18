@@ -1,0 +1,285 @@
+  
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: monospace;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(code.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.main-nav{
+    float: left;
+    list-style: none;
+    margin-top: 50px
+    
+}
+.main-nav li{
+    display: inline-block;
+    padding: 10px;   
+    
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    
+}
+.main-nav li.active a{
+    border: 1px solid white;
+    
+}
+.main-nav li a:hover{
+    color: red;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    float: left;
+    
+}
+.logo h1{
+    font-family: fantasy;
+    color: white;
+    float: left;
+    font-weight: 1000;
+    padding-top: 50px;
+    margin-right: 50px
+    
+}
+.logo h1 span{
+    font-weight: 10;
+}
+.logo{
+    padding-top: 40px;
+    
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+    margin-left:50px;
+    padding-left: 100px;
+    padding-top: 10px;
+    text-align: right;
+    
+}
+.jumbotron{
+
+    position: relative;
+    width: 1450px;
+    padding-left: 520px;
+    margin-top: 50px;
+    text-align: center;
+    animation: fadeIn 5s;
+    
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.jumbotron h1     {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+.jumbotron h3{
+    text-align: center;
+    color: white;
+}
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+        
+}
+.panel1{
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+    padding-left: 300px;
+    height: 200px
+}
+.panel1 p{
+   font-size: 20px;
+   font-family: Arial,Helvetica,sans-serif;
+   color: #605E5E;
+}
+.panel1 h1{
+    color: mediumpurple;
+
+}
+.panel2{
+    padding-top: 50px;
+    text-align: center;
+    float: right;
+    padding-right: 300px;
+    height: 200px
+}
+.panel2 p{
+   font-size: 20px;
+   font-family: Arial,Helvetica,sans-serif;
+    color: #605E5E;
+}
+.panel2 h1{
+    color: mediumpurple;
+}
+.panel3 h1{
+    color: mediumpurple
+}
+.panel3 p{
+    font-size: 20px;
+   font-family: Arial,Helvetica,sans-serif;
+    color: #605E5E;
+}
+.panel3{
+    text-align: center;
+    padding-top: 50px
+}
+
+.slider{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.slide{
+    height: 300px;
+    width: 500%;
+    background-color: green;
+    animation: slider infinite 40s 2s;
+}
+.imagecon h1{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+.imagecon p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 350px;
+    margin-right: 350px; 
+    color:aliceblue;
+}
+.imagecon{
+    height: 300px;
+    width: 20%;
+    background-color: gray;
+    float: left;
+
+}
+.imagecon:nth-child(1){
+    background-image: url("slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(2){
+    background-image: url("slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(3){
+    background-image: url("slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.imagecon:nth-child(4){
+    background-image: url("slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(5){
+    background-image: url("slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slider{
+    12.5%{
+        margin-left: -100%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    37.5%{
+        margin-left: -200%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    62.5%{
+        margin-left: -300%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    87.5%{
+        margin-left: -400%
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+
+.tourslider{
+    margin-top: 30px;
+        
+}
+.tourslider h1{
+    text-align: center;
+    
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: papayawhip;
+}
+.info{
+    list-style: none;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.info li{
+    
+    display: inline-block;
+    padding: 60px
+        
+}
+@media (max-width:2000px){
+    .panel1{
+        padding-left: 150px;
+    }
+    .panel2{
+        padding-right: 150px;           
+    }  
+}
+@media (max-width:1750px){
+    .panels{
+        flex-direction: column;
+    }
+    
+}
+
